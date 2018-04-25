@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76336462-d681-4a5a-b523-5de42f1e98cc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/description.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/project-template.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/TuentiChallenge2018.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/TuentiChallenge2018/com/tuenti/mario800ml/tuenti01/output.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/out/production/TuentiChallenge2018/com/tuenti/mario800ml/tuenti01/submitInput.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/output.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/tuenti/mario800ml/tuenti01/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/tuenti/mario800ml/tuenti01/output.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/tuenti/mario800ml/tuenti01/submitInput.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/tuenti/mario800ml/tuenti02/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/submitInput.txt" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/TuentiChallenge2018/com/tuenti/mario800ml/tuenti01/output.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/TuentiChallenge2018/com/tuenti/mario800ml/tuenti01/submitInput.txt" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/tuenti/mario800ml/tuenti01/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="submitInput.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/submitInput.txt">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="345">
+              <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -69,6 +58,7 @@
         <option value="$PROJECT_DIR$/src/com/tuenti/mario800ml/tuenti01/Main.java" />
         <option value="$PROJECT_DIR$/submitInput.txt" />
         <option value="$PROJECT_DIR$/src/com/tuenti/mario800ml/tuenti02/Main.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -459,8 +449,8 @@
         <state relative-caret-position="159">
           <caret line="901" column="16" lean-forward="false" selection-start-line="901" selection-start-column="16" selection-end-line="901" selection-end-column="25" />
           <folding>
-            <element signature="e#34168#34169#0" expanded="true" />
-            <element signature="e#34202#34203#0" expanded="true" />
+            <element signature="e#34168#34169#0" expanded="false" />
+            <element signature="e#34202#34203#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -478,18 +468,8 @@
         <state relative-caret-position="133">
           <caret line="94" column="40" lean-forward="false" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2728#2739#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tuenti/mario800ml/tuenti01/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2728#2739#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -498,6 +478,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tuenti/mario800ml/tuenti01/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
           <folding />
         </state>
       </provider>
