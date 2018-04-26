@@ -1,5 +1,6 @@
 package com.tuenti.mario800ml.tuenti02;
 
+import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -14,7 +15,12 @@ public class Main {
     static FileWriter fw;
 
     public static void main(String[] args) throws Exception {
-        openFiles("submitInput.txt", "output.txt");
+
+        String path = "./src/" + (Main.class.getName()).replace(".", File.separator).replace("Main", "");
+
+        String current = new java.io.File( path).getCanonicalPath();
+
+        openFiles(current + File.separator + "submitInput.txt", current + File.separator + "output.txt");
 
         int t = sc.nextInt();
         sc.nextLine();
