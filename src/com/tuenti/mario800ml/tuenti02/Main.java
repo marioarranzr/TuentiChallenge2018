@@ -3,6 +3,7 @@ package com.tuenti.mario800ml.tuenti02;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.*;
 
@@ -89,10 +90,10 @@ public class Main {
             i++;
         }
 
-        long maxNumber = decimalValue(line, decimalValueMaxHashMap, base);
-        long minNumber = decimalValue(line, decimalValueMinHashMap, base);
+        BigInteger maxNumber = decimalValue(line, decimalValueMaxHashMap, base);
+        BigInteger minNumber = decimalValue(line, decimalValueMinHashMap, base);
 
-        write(maxNumber-minNumber + "");
+        write(maxNumber.subtract(minNumber) + "");
     }
 
     public static int numberDiffCharacters(String s) {
@@ -103,25 +104,24 @@ public class Main {
         return set.size();
     }
 
-    public static long decimalValue(String line, HashMap<String, Integer> decimalValueHashMap, int base) {
-        String number = "";
+    public static BigInteger decimalValue(String line, HashMap<String, Integer> decimalValueHashMap, int base) {
+        List<Integer> numbers = new ArrayList<>();
         for (int i = 0; i < line.length(); i++) {
             String character = String.valueOf(line.charAt(i));
-            Long value = decimalValueHashMap.get(character).longValue();
-            number += value.toString();
+            Integer value = decimalValueHashMap.get(character).intValue();
+            numbers.add(value);
         }
-        long decimalValue = convertFromBaseToDecimal(number, base);
+        BigInteger decimalValue = convertFromBaseToDecimal(numbers, new BigInteger(String.valueOf(base)));
 
         return decimalValue;
     }
 
-    private static long convertFromBaseToDecimal(String number, int base) {
-        long result = 0;
-        for (int i = 0; i < number.length(); i++) {
-            String character = String.valueOf(number.charAt(i));
-            result += Long.valueOf(character).longValue()*(Math.pow(base, base-i-1));
+    public static BigInteger convertFromBaseToDecimal (List<Integer> num, BigInteger base){
+        BigInteger result = BigInteger.ZERO;
+        for (int i = 0; i < num.size(); i++){
+            BigInteger pow = base.pow((base.intValue() - i) - 1);
+            result = result.add(pow.multiply(BigInteger.valueOf(num.get(i))));
         }
-
         return result;
     }
 }
